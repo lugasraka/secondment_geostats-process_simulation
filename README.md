@@ -1,5 +1,5 @@
 # sultan-secondment-freiberg
-Some of my learnings + takeaways during 6 weeks stay at Helmholtz-Zentrum Dresden Rossendorf (Freiberg, Germany)
+Some of my learnings + takeaways during 6 weeks stay at Helmholtz-Zentrum Dresden Rossendorf (Freiberg, Germany). They involve geo stats modelling and process simulation.
 
 This is a readme doc which explains what files are inside this repo.
 
