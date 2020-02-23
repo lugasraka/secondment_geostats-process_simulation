@@ -5,7 +5,7 @@ This is a readme doc which explains what files are inside this repo.
 
 1. HIF Discussion 1 and HIF Discussion 2: presentations files during my discussion, mainly about ideas and preliminary results
 
-2. 2 pdf files (w Raimon + Sangga): handwritten notes that I took during our talk, Sangga is a PhD student who works on improving geostatistical interpolation for tailings bodies
+2. Two separate pdf files (w Raimon + Sangga): handwritten notes that I took during our talk, Sangga is a PhD student who works on improving geostatistical interpolation for tailings bodies
 
 3. Python + Jupyter folder: working model for Kriging (spatial interpolation method) on hypothetical tailings dataset (dataset from Sangga)
 
