@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="EcoSpold01.xsl"?>
+<ecoSpold xsi:schemaLocation="http://www.EcoInvent.org/EcoSpold01 ..\..\..\..\..\..\..\Programme\ecoinvent\EcoSpold\\EcoSpold01Dataset.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.EcoInvent.org/EcoSpold01">
+  <dataset validCompanyCodes="CompanyCodes.xml" validRegionalCodes="RegionalCodes.xml" validCategories="Categories.xml" validUnits="Units.xml" number="1" generator="EcoInvent Excel2EcoSpold 1.2.1" timestamp="2004-05-18T13:44:47" internalSchemaVersion="1.0">
+    <metaInformation>
+      <processInformation>
+        <referenceFunction datasetRelatesToProduct="true" name="Aluminium resmelter" localName="" infrastructureProcess="false" amount="1" unit="kg" category="HSC" subCategory="Aluminium" localCategory="" localSubCategory="" includedProcesses="" generalComment="" infrastructureIncluded="true">
+        </referenceFunction>
+        <geography location="DE" text="Freiberg HIF">
+        </geography>
+        <technology text="Aluminium">
+        </technology>
+        <timePeriod dataValidForEntirePeriod="false" text="Refer to timestamp of dataset">
+          <startYear>1900</startYear>
+          <endYear>1900</endYear>
+        </timePeriod>
+        <dataSetInformation timestamp="2019-09-05T16:10:26" type="1" impactAssessmentResult="false" version="1.000" internalVersion="1.000" energyValues="0" languageCode="en" localLanguageCode="">
+        </dataSetInformation>
+      </processInformation>
+      <modellingAndValidation>
+        <representativeness percent="0.0" productionVolume="0" samplingProcedure="" extrapolations="no extrapolations" uncertaintyAdjustments="none">
+        </representativeness>
+        <source number="1" sourceType="0" firstAuthor="RAK" additionalAuthors="unknown" year="2019" title="" placeOfPublications="" text="HSC Chemistry. http://www.hsc-chemistry.net">
+        </source>
+        <validation proofReadingValidator="1" proofReadingDetails="Passed." />
+      </modellingAndValidation>
+      <administrativeInformation>
+        <dataEntryBy person="1" qualityNetwork="0">
+        </dataEntryBy>
+        <dataGeneratorAndPublication person="1" dataPublishedIn="1" referenceToPublishedSource="1" copyright="true" accessRestrictedTo="0">
+        </dataGeneratorAndPublication>
+        <person number="1" name="RAK" address="" telephone="" telefax="" email="" companyCode="" countryCode="DE">
+        </person>
+      </administrativeInformation>
+    </metaInformation>
+    <flowData>
+      <exchange number="1" category="Materials" subCategory="Intermediate products" name="Methane" location="" unit="kg" meanValue="0.0523435733381782" uncertaintyType="0">
+        <inputGroup>5</inputGroup>
+      </exchange>
+      <exchange number="2" category="Material resources" subCategory="Renewable resources" name="Air" location="" unit="kg" meanValue="0.901613505516454" uncertaintyType="0">
+        <inputGroup>5</inputGroup>
+      </exchange>
+      <exchange number="3" category="Waste for recovery" subCategory="" name="Aluminium scrap" location="" unit="kg" meanValue="0.666682905704062" uncertaintyType="0">
+        <inputGroup>5</inputGroup>
+      </exchange>
+      <exchange number="4" category="Material resources" subCategory="Non renewable elements" name="Silicon" location="" unit="kg" meanValue="0.119999999963586" uncertaintyType="0">
+        <inputGroup>5</inputGroup>
+      </exchange>
+      <exchange number="5" category="Waste for recovery" subCategory="" name="Salt slag" location="" unit="kg" meanValue="0.133336581140812" uncertaintyType="0">
+        <inputGroup>5</inputGroup>
+      </exchange>
+      <exchange number="6" category="Material resources" subCategory="Non renewable elements" name="Aluminium" location="" unit="kg" meanValue="0.31548251443502" uncertaintyType="0">
+        <inputGroup>5</inputGroup>
+      </exchange>
+      <exchange number="7" category="Energy carrier" subCategory="Electric power" name="Electricity" location="" unit="kWh" meanValue="0.395246906789131" uncertaintyType="0">
+        <inputGroup>2</inputGroup>
+      </exchange>
+      <exchange number="8" category="Other emissions to air" subCategory="" name="Flue gas" location="" unit="kg" meanValue="0.948851117371732" uncertaintyType="0">
+        <outputGroup>4</outputGroup>
+      </exchange>
+      <exchange number="9" category="Waste for recovery" subCategory="" name="Waste heat" location="" unit="kWh" meanValue="0.509689633598624" uncertaintyType="0">
+        <outputGroup>3</outputGroup>
+      </exchange>
+      <exchange number="10" category="Materials" subCategory="Metals" name="Aluminium die casting alloy" location="" unit="kg" meanValue="1" uncertaintyType="0">
+        <outputGroup>0</outputGroup>
+      </exchange>
+      <exchange number="11" category="Hazardous waste" subCategory="" name="Slag" location="" unit="kg" meanValue="0.133336581140812" uncertaintyType="0">
+        <outputGroup>3</outputGroup>
+      </exchange>
+      <exchange number="12" category="Waste for recovery" subCategory="" name="Salt slag" location="" unit="kg" meanValue="0.107271381585568" uncertaintyType="0">
+        <outputGroup>3</outputGroup>
+      </exchange>
+      <exchange number="13" category="Inorganic emissions to air" subCategory="" name="Carbon monoxide" location="" unit="kg" meanValue="0.000669992551475172" uncertaintyType="0">
+        <outputGroup>4</outputGroup>
+      </exchange>
+      <exchange number="14" category="Inorganic emissions to air" subCategory="" name="Carbon dioxide" location="" unit="kg" meanValue="0.142542147832189" uncertaintyType="0">
+        <outputGroup>4</outputGroup>
+      </exchange>
+      <exchange number="15" category="Inorganic emissions to air" subCategory="" name="Water vapour" location="" unit="kg" meanValue="0.117333663543875" uncertaintyType="0">
+        <outputGroup>4</outputGroup>
+      </exchange>
+      <exchange number="16" category="Inorganic emissions to air" subCategory="" name="Nitrogen oxides" location="" unit="kg" meanValue="0.000182401980189898" uncertaintyType="0">
+        <outputGroup>4</outputGroup>
+      </exchange>
+    </flowData>
+  </dataset>
+</ecoSpold>

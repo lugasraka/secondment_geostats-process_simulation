@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="EcoSpold01.xsl"?>
+<ecoSpold xsi:schemaLocation="http://www.EcoInvent.org/EcoSpold01 ..\..\..\..\..\..\..\Programme\ecoinvent\EcoSpold\\EcoSpold01Dataset.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.EcoInvent.org/EcoSpold01">
+  <dataset validCompanyCodes="CompanyCodes.xml" validRegionalCodes="RegionalCodes.xml" validCategories="Categories.xml" validUnits="Units.xml" number="1" generator="EcoInvent Excel2EcoSpold 1.2.1" timestamp="2004-05-18T13:44:47" internalSchemaVersion="1.0">
+    <metaInformation>
+      <processInformation>
+        <referenceFunction datasetRelatesToProduct="true" name="Steel scrap smelter" localName="" infrastructureProcess="false" amount="1" unit="kg" category="HSC" subCategory="Electric arc furnace" localCategory="" localSubCategory="" includedProcesses="" generalComment="Testing in the course" infrastructureIncluded="true">
+        </referenceFunction>
+        <geography location="DE" text="HIF Freiberg ">
+        </geography>
+        <technology text="Electric arc furnace">
+        </technology>
+        <timePeriod dataValidForEntirePeriod="false" text="Refer to timestamp of dataset">
+          <startYear>1900</startYear>
+          <endYear>1900</endYear>
+        </timePeriod>
+        <dataSetInformation timestamp="2019-09-05T10:24:48" type="1" impactAssessmentResult="false" version="1.000" internalVersion="1.000" energyValues="0" languageCode="en" localLanguageCode="">
+        </dataSetInformation>
+      </processInformation>
+      <modellingAndValidation>
+        <representativeness percent="0.0" productionVolume="0" samplingProcedure="" extrapolations="no extrapolations" uncertaintyAdjustments="none">
+        </representativeness>
+        <source number="1" sourceType="0" firstAuthor="RAK" additionalAuthors="unknown" year="2019" title="" placeOfPublications="" text="HSC Chemistry. http://www.hsc-chemistry.net">
+        </source>
+        <validation proofReadingValidator="1" proofReadingDetails="Passed." />
+      </modellingAndValidation>
+      <administrativeInformation>
+        <dataEntryBy person="1" qualityNetwork="0">
+        </dataEntryBy>
+        <dataGeneratorAndPublication person="1" dataPublishedIn="1" referenceToPublishedSource="1" copyright="true" accessRestrictedTo="0">
+        </dataGeneratorAndPublication>
+        <person number="1" name="RAK" address="" telephone="" telefax="" email="" companyCode="" countryCode="DE">
+        </person>
+      </administrativeInformation>
+    </metaInformation>
+    <flowData>
+      <exchange number="1" category="Waste for recovery" subCategory="" name="Iron scrap" location="" unit="kg" meanValue="1" uncertaintyType="0">
+        <inputGroup>5</inputGroup>
+      </exchange>
+      <exchange number="2" category="Energy carrier" subCategory="Electric power" name="Electricity" location="" unit="kWh" meanValue="0.386389957322814" uncertaintyType="0">
+        <inputGroup>2</inputGroup>
+      </exchange>
+      <exchange number="3" category="Materials" subCategory="Metals" name="Crude steel" location="" unit="kg" meanValue="1" uncertaintyType="0">
+        <outputGroup>0</outputGroup>
+      </exchange>
+    </flowData>
+  </dataset>
+</ecoSpold>
