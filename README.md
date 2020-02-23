@@ -7,7 +7,7 @@ This is a readme doc which explains what files are inside this repo.
 
 2. Two separate pdf files (w Raimon + Sangga): handwritten notes that I took during our talk, Sangga is a PhD student who works on improving geostatistical interpolation for tailings bodies
 
-3. Python + Jupyter folder: working model for Kriging (spatial interpolation method) on hypothetical tailings dataset (dataset from Sangga)
+3. Python + Jupyter folder: working model for Kriging (spatial interpolation method) on hypothetical tailings dataset (dataset from Sangga). I simulated by means of Ordinary kriging and by assuming 2d grid without inclusion of z-direction effect affecting generated map -- https://pykrige.readthedocs.io/en/latest/overview.html
 
 4. dataset SgeMs: Another Kriging spatial interpolation, this time using a specific open-source software (Stanford geostatistical modelling -- http://sgems.sourceforge.net/) for geostatistical modelling
 
